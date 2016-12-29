@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14F817A1E0CFC8100C61247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81791E0CFC8100C61247 /* main.m */; };
+		A14F817D1E0CFC8100C61247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F817C1E0CFC8100C61247 /* AppDelegate.m */; };
+		A14F81801E0CFC8100C61247 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F817F1E0CFC8100C61247 /* ViewController.m */; };
+		A14F81831E0CFC8100C61247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14F81811E0CFC8100C61247 /* Main.storyboard */; };
+		A14F81851E0CFC8100C61247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14F81841E0CFC8100C61247 /* Assets.xcassets */; };
+		A14F81881E0CFC8100C61247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14F81861E0CFC8100C61247 /* LaunchScreen.storyboard */; };
+		A14F81931E0CFC8100C61247 /* YMDraggingSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81921E0CFC8100C61247 /* YMDraggingSortTests.m */; };
+		A14F819E1E0CFC8100C61247 /* YMDraggingSortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F819D1E0CFC8100C61247 /* YMDraggingSortUITests.m */; };
+		A14F81B31E0CFD0A00C61247 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81B21E0CFD0A00C61247 /* UIView+Frame.m */; };
+		A14F81B71E0CFD7A00C61247 /* YMDragSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81B61E0CFD7A00C61247 /* YMDragSortTool.m */; };
+		A14F81BA1E0CFE5F00C61247 /* YMDargSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81B91E0CFE5F00C61247 /* YMDargSortModel.m */; };
+		A14F81BD1E0CFE9E00C61247 /* YMDargSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81BC1E0CFE9E00C61247 /* YMDargSortCell.m */; };
+		A14F81C01E0D05FE00C61247 /* YMDragSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14F81BF1E0D05FE00C61247 /* YMDragSortViewController.m */; };
+		A1E1748D1E10B53D003657B8 /* YMCollectionSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1748C1E10B53D003657B8 /* YMCollectionSectionHeaderView.m */; };
+		A1E1749E1E125D51003657B8 /* channel.json in Resources */ = {isa = PBXBuildFile; fileRef = A1E1749D1E125D51003657B8 /* channel.json */; };
+		A1E175001E139E55003657B8 /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E174FD1E139E55003657B8 /* NSMutableArray+Swizzling.m */; };
+		A1E175011E139E55003657B8 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E174FF1E139E55003657B8 /* NSObject+Swizzling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14F818F1E0CFC8100C61247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14F816D1E0CFC8000C61247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14F81741E0CFC8000C61247;
+			remoteInfo = YMDraggingSort;
+		};
+		A14F819A1E0CFC8100C61247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14F816D1E0CFC8000C61247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14F81741E0CFC8000C61247;
+			remoteInfo = YMDraggingSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A14F81751E0CFC8000C61247 /* YMDraggingSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMDraggingSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14F81791E0CFC8100C61247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A14F817B1E0CFC8100C61247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A14F817C1E0CFC8100C61247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A14F817E1E0CFC8100C61247 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A14F817F1E0CFC8100C61247 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A14F81821E0CFC8100C61247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14F81841E0CFC8100C61247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14F81871E0CFC8100C61247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14F81891E0CFC8100C61247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14F818E1E0CFC8100C61247 /* YMDraggingSortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMDraggingSortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14F81921E0CFC8100C61247 /* YMDraggingSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDraggingSortTests.m; sourceTree = "<group>"; };
+		A14F81941E0CFC8100C61247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14F81991E0CFC8100C61247 /* YMDraggingSortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMDraggingSortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14F819D1E0CFC8100C61247 /* YMDraggingSortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDraggingSortUITests.m; sourceTree = "<group>"; };
+		A14F819F1E0CFC8100C61247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14F81B11E0CFD0A00C61247 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A14F81B21E0CFD0A00C61247 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A14F81B41E0CFD2C00C61247 /* YMDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDefine.h; sourceTree = "<group>"; };
+		A14F81B51E0CFD7A00C61247 /* YMDragSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDragSortTool.h; sourceTree = "<group>"; };
+		A14F81B61E0CFD7A00C61247 /* YMDragSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDragSortTool.m; sourceTree = "<group>"; };
+		A14F81B81E0CFE5F00C61247 /* YMDargSortModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDargSortModel.h; sourceTree = "<group>"; };
+		A14F81B91E0CFE5F00C61247 /* YMDargSortModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDargSortModel.m; sourceTree = "<group>"; };
+		A14F81BB1E0CFE9E00C61247 /* YMDargSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDargSortCell.h; sourceTree = "<group>"; };
+		A14F81BC1E0CFE9E00C61247 /* YMDargSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDargSortCell.m; sourceTree = "<group>"; };
+		A14F81BE1E0D05FE00C61247 /* YMDragSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDragSortViewController.h; sourceTree = "<group>"; };
+		A14F81BF1E0D05FE00C61247 /* YMDragSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDragSortViewController.m; sourceTree = "<group>"; };
+		A1E1748B1E10B53D003657B8 /* YMCollectionSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCollectionSectionHeaderView.h; sourceTree = "<group>"; };
+		A1E1748C1E10B53D003657B8 /* YMCollectionSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCollectionSectionHeaderView.m; sourceTree = "<group>"; };
+		A1E1749D1E125D51003657B8 /* channel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = channel.json; sourceTree = "<group>"; };
+		A1E174FC1E139E55003657B8 /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
+		A1E174FD1E139E55003657B8 /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
+		A1E174FE1E139E55003657B8 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		A1E174FF1E139E55003657B8 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14F81721E0CFC8000C61247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14F818B1E0CFC8100C61247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14F81961E0CFC8100C61247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14F816C1E0CFC8000C61247 = {
+			isa = PBXGroup;
+			children = (
+				A14F81771E0CFC8000C61247 /* YMDraggingSort */,
+				A14F81911E0CFC8100C61247 /* YMDraggingSortTests */,
+				A14F819C1E0CFC8100C61247 /* YMDraggingSortUITests */,
+				A14F81761E0CFC8000C61247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14F81761E0CFC8000C61247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81751E0CFC8000C61247 /* YMDraggingSort.app */,
+				A14F818E1E0CFC8100C61247 /* YMDraggingSortTests.xctest */,
+				A14F81991E0CFC8100C61247 /* YMDraggingSortUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14F81771E0CFC8000C61247 /* YMDraggingSort */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81AB1E0CFCE000C61247 /* Classes */,
+				A14F817B1E0CFC8100C61247 /* AppDelegate.h */,
+				A14F817C1E0CFC8100C61247 /* AppDelegate.m */,
+				A14F817E1E0CFC8100C61247 /* ViewController.h */,
+				A14F817F1E0CFC8100C61247 /* ViewController.m */,
+				A14F81811E0CFC8100C61247 /* Main.storyboard */,
+				A14F81841E0CFC8100C61247 /* Assets.xcassets */,
+				A14F81861E0CFC8100C61247 /* LaunchScreen.storyboard */,
+				A14F81891E0CFC8100C61247 /* Info.plist */,
+				A14F81781E0CFC8100C61247 /* Supporting Files */,
+			);
+			path = YMDraggingSort;
+			sourceTree = "<group>";
+		};
+		A14F81781E0CFC8100C61247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81791E0CFC8100C61247 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A14F81911E0CFC8100C61247 /* YMDraggingSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81921E0CFC8100C61247 /* YMDraggingSortTests.m */,
+				A14F81941E0CFC8100C61247 /* Info.plist */,
+			);
+			path = YMDraggingSortTests;
+			sourceTree = "<group>";
+		};
+		A14F819C1E0CFC8100C61247 /* YMDraggingSortUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14F819D1E0CFC8100C61247 /* YMDraggingSortUITests.m */,
+				A14F819F1E0CFC8100C61247 /* Info.plist */,
+			);
+			path = YMDraggingSortUITests;
+			sourceTree = "<group>";
+		};
+		A14F81AB1E0CFCE000C61247 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E174FB1E139E55003657B8 /* Runtime */,
+				A14F81B01E0CFCFC00C61247 /* Category */,
+				A14F81AC1E0CFCE000C61247 /* Controller */,
+				A14F81AD1E0CFCE000C61247 /* Model */,
+				A14F81AE1E0CFCE000C61247 /* Tool */,
+				A14F81AF1E0CFCE000C61247 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A14F81AC1E0CFCE000C61247 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81BE1E0D05FE00C61247 /* YMDragSortViewController.h */,
+				A14F81BF1E0D05FE00C61247 /* YMDragSortViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A14F81AD1E0CFCE000C61247 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81B81E0CFE5F00C61247 /* YMDargSortModel.h */,
+				A14F81B91E0CFE5F00C61247 /* YMDargSortModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A14F81AE1E0CFCE000C61247 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A1E1749D1E125D51003657B8 /* channel.json */,
+				A14F81B41E0CFD2C00C61247 /* YMDefine.h */,
+				A14F81B51E0CFD7A00C61247 /* YMDragSortTool.h */,
+				A14F81B61E0CFD7A00C61247 /* YMDragSortTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A14F81AF1E0CFCE000C61247 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81BB1E0CFE9E00C61247 /* YMDargSortCell.h */,
+				A14F81BC1E0CFE9E00C61247 /* YMDargSortCell.m */,
+				A1E1748B1E10B53D003657B8 /* YMCollectionSectionHeaderView.h */,
+				A1E1748C1E10B53D003657B8 /* YMCollectionSectionHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A14F81B01E0CFCFC00C61247 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A14F81B11E0CFD0A00C61247 /* UIView+Frame.h */,
+				A14F81B21E0CFD0A00C61247 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A1E174FB1E139E55003657B8 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				A1E174FC1E139E55003657B8 /* NSMutableArray+Swizzling.h */,
+				A1E174FD1E139E55003657B8 /* NSMutableArray+Swizzling.m */,
+				A1E174FE1E139E55003657B8 /* NSObject+Swizzling.h */,
+				A1E174FF1E139E55003657B8 /* NSObject+Swizzling.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14F81741E0CFC8000C61247 /* YMDraggingSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14F81A21E0CFC8100C61247 /* Build configuration list for PBXNativeTarget "YMDraggingSort" */;
+			buildPhases = (
+				A14F81711E0CFC8000C61247 /* Sources */,
+				A14F81721E0CFC8000C61247 /* Frameworks */,
+				A14F81731E0CFC8000C61247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMDraggingSort;
+			productName = YMDraggingSort;
+			productReference = A14F81751E0CFC8000C61247 /* YMDraggingSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14F818D1E0CFC8100C61247 /* YMDraggingSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14F81A51E0CFC8100C61247 /* Build configuration list for PBXNativeTarget "YMDraggingSortTests" */;
+			buildPhases = (
+				A14F818A1E0CFC8100C61247 /* Sources */,
+				A14F818B1E0CFC8100C61247 /* Frameworks */,
+				A14F818C1E0CFC8100C61247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14F81901E0CFC8100C61247 /* PBXTargetDependency */,
+			);
+			name = YMDraggingSortTests;
+			productName = YMDraggingSortTests;
+			productReference = A14F818E1E0CFC8100C61247 /* YMDraggingSortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A14F81981E0CFC8100C61247 /* YMDraggingSortUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14F81A81E0CFC8100C61247 /* Build configuration list for PBXNativeTarget "YMDraggingSortUITests" */;
+			buildPhases = (
+				A14F81951E0CFC8100C61247 /* Sources */,
+				A14F81961E0CFC8100C61247 /* Frameworks */,
+				A14F81971E0CFC8100C61247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14F819B1E0CFC8100C61247 /* PBXTargetDependency */,
+			);
+			name = YMDraggingSortUITests;
+			productName = YMDraggingSortUITests;
+			productReference = A14F81991E0CFC8100C61247 /* YMDraggingSortUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14F816D1E0CFC8000C61247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = youmy;
+				TargetAttributes = {
+					A14F81741E0CFC8000C61247 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 24Z9ZEP47W;
+						ProvisioningStyle = Manual;
+					};
+					A14F818D1E0CFC8100C61247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A14F81741E0CFC8000C61247;
+					};
+					A14F81981E0CFC8100C61247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A14F81741E0CFC8000C61247;
+					};
+				};
+			};
+			buildConfigurationList = A14F81701E0CFC8000C61247 /* Build configuration list for PBXProject "YMDraggingSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14F816C1E0CFC8000C61247;
+			productRefGroup = A14F81761E0CFC8000C61247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14F81741E0CFC8000C61247 /* YMDraggingSort */,
+				A14F818D1E0CFC8100C61247 /* YMDraggingSortTests */,
+				A14F81981E0CFC8100C61247 /* YMDraggingSortUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14F81731E0CFC8000C61247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14F81881E0CFC8100C61247 /* LaunchScreen.storyboard in Resources */,
+				A1E1749E1E125D51003657B8 /* channel.json in Resources */,
+				A14F81851E0CFC8100C61247 /* Assets.xcassets in Resources */,
+				A14F81831E0CFC8100C61247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14F818C1E0CFC8100C61247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14F81971E0CFC8100C61247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14F81711E0CFC8000C61247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14F81C01E0D05FE00C61247 /* YMDragSortViewController.m in Sources */,
+				A14F81B31E0CFD0A00C61247 /* UIView+Frame.m in Sources */,
+				A14F81801E0CFC8100C61247 /* ViewController.m in Sources */,
+				A14F81BD1E0CFE9E00C61247 /* YMDargSortCell.m in Sources */,
+				A1E1748D1E10B53D003657B8 /* YMCollectionSectionHeaderView.m in Sources */,
+				A1E175011E139E55003657B8 /* NSObject+Swizzling.m in Sources */,
+				A14F817D1E0CFC8100C61247 /* AppDelegate.m in Sources */,
+				A14F817A1E0CFC8100C61247 /* main.m in Sources */,
+				A14F81B71E0CFD7A00C61247 /* YMDragSortTool.m in Sources */,
+				A14F81BA1E0CFE5F00C61247 /* YMDargSortModel.m in Sources */,
+				A1E175001E139E55003657B8 /* NSMutableArray+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14F818A1E0CFC8100C61247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14F81931E0CFC8100C61247 /* YMDraggingSortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14F81951E0CFC8100C61247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14F819E1E0CFC8100C61247 /* YMDraggingSortUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14F81901E0CFC8100C61247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14F81741E0CFC8000C61247 /* YMDraggingSort */;
+			targetProxy = A14F818F1E0CFC8100C61247 /* PBXContainerItemProxy */;
+		};
+		A14F819B1E0CFC8100C61247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14F81741E0CFC8000C61247 /* YMDraggingSort */;
+			targetProxy = A14F819A1E0CFC8100C61247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A14F81811E0CFC8100C61247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14F81821E0CFC8100C61247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14F81861E0CFC8100C61247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14F81871E0CFC8100C61247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14F81A01E0CFC8100C61247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A14F81A11E0CFC8100C61247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14F81A31E0CFC8100C61247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Z9ZEP47W;
+				INFOPLIST_FILE = YMDraggingSort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.YMDraggingSort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5dc28e8e-f10e-44de-a994-5c9a214e87d5";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_General;
+			};
+			name = Debug;
+		};
+		A14F81A41E0CFC8100C61247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Z9ZEP47W;
+				INFOPLIST_FILE = YMDraggingSort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.YMDraggingSort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5dc28e8e-f10e-44de-a994-5c9a214e87d5";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_General;
+			};
+			name = Release;
+		};
+		A14F81A61E0CFC8100C61247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMDraggingSortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.YMDraggingSortTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMDraggingSort.app/YMDraggingSort";
+			};
+			name = Debug;
+		};
+		A14F81A71E0CFC8100C61247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMDraggingSortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.YMDraggingSortTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMDraggingSort.app/YMDraggingSort";
+			};
+			name = Release;
+		};
+		A14F81A91E0CFC8100C61247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMDraggingSortUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.YMDraggingSortUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMDraggingSort;
+			};
+			name = Debug;
+		};
+		A14F81AA1E0CFC8100C61247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMDraggingSortUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.YMDraggingSortUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMDraggingSort;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14F81701E0CFC8000C61247 /* Build configuration list for PBXProject "YMDraggingSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14F81A01E0CFC8100C61247 /* Debug */,
+				A14F81A11E0CFC8100C61247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14F81A21E0CFC8100C61247 /* Build configuration list for PBXNativeTarget "YMDraggingSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14F81A31E0CFC8100C61247 /* Debug */,
+				A14F81A41E0CFC8100C61247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14F81A51E0CFC8100C61247 /* Build configuration list for PBXNativeTarget "YMDraggingSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14F81A61E0CFC8100C61247 /* Debug */,
+				A14F81A71E0CFC8100C61247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14F81A81E0CFC8100C61247 /* Build configuration list for PBXNativeTarget "YMDraggingSortUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14F81A91E0CFC8100C61247 /* Debug */,
+				A14F81AA1E0CFC8100C61247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14F816D1E0CFC8000C61247 /* Project object */;
+}
