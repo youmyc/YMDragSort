@@ -277,7 +277,17 @@ static CGFloat kHEIGHT = 30;
     NSIndexPath * lastPath = [NSIndexPath indexPathForItem:self.myChannels.count - 1  inSection:0];
     YMDargSortCell * lastCell = (YMDargSortCell *)[self.dragSortView cellForItemAtIndexPath:lastPath];
     
-    CGPoint lastPoint = CGPointMake(lastCell.centerX + lastCell.width, lastCell.centerY + lastCell.height);
+    CGPoint lastPoint = CGPointZero;
+    
+    if (SCREEN_WIDTH - lastCell.centerX > lastCell.width) {
+        lastPoint = CGPointMake(lastCell.centerX + lastCell.width, lastCell.centerY);
+    }else{
+        NSIndexPath * firstPath = [NSIndexPath indexPathForItem:0 inSection:0];
+        YMDargSortCell * firstCell = (YMDargSortCell *)[self.dragSortView cellForItemAtIndexPath:firstPath];
+        lastPoint = CGPointMake(firstCell.centerX, lastCell.centerY + lastCell.height);
+    }
+    
+//    CGPoint lastPoint = CGPointMake(lastCell.centerX + lastCell.width, lastCell.centerY + lastCell.height);
     
     if (lastPoint.x > SCREEN_WIDTH) {
         lastPoint.x = kContentLeftAndRightSpace + lastCell.width * 0.5;

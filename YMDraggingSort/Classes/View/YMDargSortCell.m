@@ -11,7 +11,7 @@
 #import "UIView+Frame.h"
 #import "YMDefine.h"
 
-#define kDeleteBtnWH 10 * SCREEN_WIDTH_RATIO
+#define kDeleteBtnWH 12 * SCREEN_WIDTH_RATIO
 
 @interface YMDargSortCell ()<UIGestureRecognizerDelegate>
 /** 标签 */
@@ -59,11 +59,13 @@
     _label.textAlignment = NSTextAlignmentCenter;
     _label.adjustsFontSizeToFitWidth = YES;
     
-    _deleteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_deleteBtn setImage:[UIImage imageNamed:@"drag_delete"] forState:UIControlStateNormal];
+    _deleteBtn = [[UIButton alloc] init];
+    [_deleteBtn setBackgroundImage:[UIImage imageNamed:@"drag_delete"] forState:UIControlStateNormal];
+    [_deleteBtn setBackgroundImage:[UIImage imageNamed:@"drag_delete"] forState:UIControlStateHighlighted];
+//    [_deleteBtn setImage:[UIImage imageNamed:@"drag_delete"] forState:UIControlStateNormal];
     _deleteBtn.width = kDeleteBtnWH;
     _deleteBtn.height = kDeleteBtnWH;
-    _deleteBtn.center = CGPointMake(self.width - _deleteBtn.width * 0.55, _deleteBtn.width * 0.55);
+    _deleteBtn.center = CGPointMake(self.width - 5, 5);
     
     [_deleteBtn addTarget:self action:@selector(cancelSubscribe) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:_deleteBtn];
